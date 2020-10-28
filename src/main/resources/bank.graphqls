@@ -1,0 +1,15 @@
+type BankDetails {
+    id: ID!
+    bankName: String
+    zipCode: String
+    city: String
+    county: String
+}
+
+type Query {
+     getBankDetails(id: ID): BankDetails
+}
+
+type Mutation {
+       newBank(bankName: String!,zipCode: String!,city: String!,county: String!) : BankDetails!
+}
