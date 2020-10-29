@@ -13,7 +13,7 @@ BankQueryResolver - Implemented to facilitate querying details in DB
 
 For simplification , I have used in memory H2 DB
 
-Testing Graphl Queries
+<B><U>Testing Graphl Queries</B></U>
 
 http://localhost:8080/graphiql - rich GraphQL UI to test the mutation and queries
 
